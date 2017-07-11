@@ -9,5 +9,3 @@ script:
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
     docker push  danidalle/sbt-docker-build;
     fi
-
-
